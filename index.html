@@ -10,10 +10,13 @@
 </head>
 
 <!-- Uncomment for debugging -->
-<!-- <body class="debug-mode" style="background-color: rgb(219, 219, 219); overflow: auto;"> -->
 
-<body style="background-color: rgb(219, 219, 219); overflow: auto; padding-top: 6rem;">
+<!-- <body class="debug-mode has-left-sidebar has-right-sidebar"> -->
+
+<body class="has-left-sidebar has-right-sidebar"
+    style="background-color: rgb(219, 219, 219); overflow: auto; padding-top: 6rem;">
     <div class="container">
+        <!-- <div> -->
         <nav>
             <a href="#root">Root Styles</a>
             <a href="#classes">Utility Classes</a>
@@ -297,6 +300,39 @@
         <h3 id="header">Header</h3>
         <header>Header</header>
         <h3 id="sidebar">Sidebar</h3>
+        <ul>
+            <li>
+                right-sidebar
+            </li>
+            <li>
+                left-sidebar
+            </li>
+        </ul>
+        <right-sidebar>
+            Right Sidebar
+        </right-sidebar>
+        <left-sidebar>
+            <a href="#root">
+                <li class="list-group-item">
+                    <div class="item-icon">
+                        Icon
+                    </div>
+                    <div class="item-name">
+                        Root Styles
+                    </div>
+                </li>
+            </a>
+            <a href="#classes">
+                <li class="list-group-item">
+                    <div class="item-icon">
+                        Icon
+                    </div>
+                    <div class="item-name">
+                        Utility Classes
+                    </div>
+                </li>
+            </a>
+        </left-sidebar>
     </div>
 </body>
 
