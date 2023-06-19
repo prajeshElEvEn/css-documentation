@@ -34,6 +34,10 @@
                 <a href="#bod">Body</a>
                 <a href="#header">Header</a>
                 <a href="#sidebar">Sidebar</a>
+                <a href="#cards">Cards</a>
+                <a href="#loader">Loader</a>
+                <a href="#table">Table</a>
+                <a href="#bio">User Bio</a>
             </nav>
             <hr>
             <h1 id="root">Root Styles</h1>
@@ -306,7 +310,22 @@
                 </li>
             </ul>
             <h3 id="header">Header</h3>
-            <header>Header</header>
+            <!-- <header> -->
+            <header class="justify-content-between">
+                <a href="#" class="logo">
+                    <img src="https://sdlms.deepthought.education/assets/uploads/files/system/site-logo.svg" alt="">
+                </a>
+                <div class="d-flex align-items-center gap-3 me-lg-5">
+                    <a href="" class="nav-menu-item">h</a>
+                    <a href="" class="nav-menu-item">h</a>
+                    <a href="" class="nav-menu-item">h</a>
+                    <a href="" class="nav-menu-item">h</a>
+                    <a href="">
+                        <img src="https://sdlms.deepthought.education/assets/uploads/files/profile_images/default_profile-image-from-rawpixel-id-477047-jpeg.jpg"
+                            alt="" class="user-img">
+                    </a>
+                </div>
+            </header>
             <h3 id="sidebar">Sidebar</h3>
             <ul>
                 <li>
@@ -341,6 +360,91 @@
                     </li>
                 </a>
             </left-sidebar>
+            <h3 id="cards">Cards</h3>
+            <div class="card user-card">
+                <div class="user-card-avatar">
+                    <img src="https://sdlms.deepthought.education/assets/uploads/files/profile_images/default_profile-image-from-rawpixel-id-477047-jpeg.jpg"
+                        alt="">
+                </div>
+                <div class="user-card-name">
+                    <a href="">Prajesh</a>
+                </div>
+                <div class="user-card-username">@username</div>
+                <div class="user-card-info-item">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum dicta adipisci eum neque
+                    exercitationem saepe. Mollitia, nam! Velit, repudiandae ex.
+                </div>
+                <div class="user-card-info-item-value">hi</div>
+            </div>
+            <br>
+            <div class="session-card">
+                <div class="session-progress-bar"></div>
+                <div class="session-card-title">Title</div>
+                <div class="session-author">Author</div>
+                <!-- <div class="session-current-progress"></div> -->
+            </div>
+            <br>
+            <div class="card single-item-card">
+                hello
+            </div>
+            <h3 id="table">Table</h3>
+            <table class="scheduled-session-table">
+                <thead>
+                    <tr>
+                        <th>Month</th>
+                        <th>Savings</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>January</td>
+                        <td>$100</td>
+                    </tr>
+                    <tr>
+                        <td>February</td>
+                        <td>$80</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Sum</td>
+                        <td>$180</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <h3 id="bio">User Bio</h3>
+            <div class="card user-bio">
+                <img src="https://sdlms.deepthought.education/assets/uploads/files/profile_images/default_profile-image-from-rawpixel-id-477047-jpeg.jpg"
+                    alt="" class="profie-picture">
+                <div class="user-bio-container">
+                    <div class="owl-nav d-flex">
+                        <button class="owl-prev">&lAarr;</button>
+                        <button class="owl-next">&rAarr;</button>
+                    </div>
+                    <div class="owl-dots">
+                        <button class="owl-dot"></button>
+                        <button class="owl-dot"></button>
+                        <button class="owl-dot"></button>
+                    </div>
+                    <div class="user-profile-bio">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, illo.
+                    </div>
+                </div>
+                <div class="stats">
+                    <div class="stats-number">5</div>
+                    <div class="stats-type">Type</div>
+                </div>
+                <div class="user-basic-info">hi</div>
+            </div>
+            <br>
+            <div class="mentiony-container">
+                <div class="mention-input-hidden">ji</div>
+            </div>
+            <div class="mentiony-container">
+                <div class="mentiony-popover">hi</div>
+            </div>
+            <h3 id="loader">Loader</h3>
+            <!-- <div class="loader">Loader</div> -->
         </div>
     </div>
 </body>
