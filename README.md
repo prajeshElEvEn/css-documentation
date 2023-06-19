@@ -1,27 +1,20 @@
-# Project Name
+# DeepThought CSS Documentation
 
-Briefly describe your project here.
+This documentation is built for custom CSS library built over Bootstrap v5, designed to enhance and extend the capabilities of Bootstrap. It provides a collection of components, utility classes, and custom styles that enable developers to create stylish and  unique designs.
 
 ## Table of Contents
 
-- [Introduction](#introduction)
 - [Getting Started](#getting-started)
 - [Documentation](#documentation)
-- [Usage Examples](#usage-examples)
 - [Contributing](#contributing)
-- [License](#license)
-
-## Introduction
-
-Provide a brief introduction to your project. Explain its purpose, features, and benefits. Mention that it is built over Bootstrap v5 and highlight the advantages it offers.
 
 ## Getting Started
 
-Provide instructions on how to get started with your project. Include steps for installation, setup, and any dependencies required. Clearly explain how to include your custom CSS in a project built on Bootstrap v5.
+Navigate to documentation/README.md to get started.
 
 ## Documentation
 
-The project includes detailed documentation that guides users on how to use and customize the custom CSS. It covers the following topics:
+The documentation includes detailed information that guides users on how to use and customize the custom CSS. It covers the following topics:
 
 - Components: Explanation and examples of each custom component you have created.
 - Utility Classes: Detailed documentation of each custom utility class.
@@ -33,10 +26,6 @@ The project includes detailed documentation that guides users on how to use and 
 
 Please refer to the [full documentation](link-to-full-documentation) for more details.
 
-## Usage Examples
-
-Provide some usage examples or code snippets that demonstrate how to use your custom CSS in different scenarios. Show how to apply custom classes to HTML elements or utilize custom components.
-
 ## Contributing
 
 Contributions to the project are welcome! If you would like to contribute, please follow these steps:
@@ -47,6 +36,6 @@ Contributions to the project are welcome! If you would like to contribute, pleas
 4. Push your changes to your forked repository.
 5. Submit a pull request to the main repository.
 
-## License
+## Authors
 
-Specify the license under which your project is distributed. For example, you can use the [MIT License](https://opensource.org/licenses/MIT) or any other license that suits your project.
+- [@prajesh](https://www.github.com/prajeshElEvEn)
