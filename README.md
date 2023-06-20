@@ -24,7 +24,7 @@ The documentation includes detailed information that guides users on how to use 
 - Examples and Demos: Visual examples showcasing your custom components and styles.
 - Troubleshooting and FAQs: Common issues and their solutions.
 
-Please refer to the [full documentation](link-to-full-documentation) for more details.
+Please refer to the [full documentation](https://github.com/prajeshElEvEn/css-documentation/tree/main/documentation) for more details.
 
 ## Contributing
 
